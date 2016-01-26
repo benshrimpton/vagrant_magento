@@ -24,7 +24,7 @@ curl --remote-name https://raw.githubusercontent.com/kpheasey/vagrant_magento/ma
 ```
 
 - Place a copy of the Magento database dump in the same directory and name it `magento.sql`
-- Update the `MAGENTO_ROOT` and `MAGENTO_TABLE_PREFIX` with appropriate values.
+- in bootstrap.sh update the `MAGENTO_ROOT` and `MAGENTO_TABLE_PREFIX` with appropriate values.
   - If Magento is in /public, then `MAGENTO_ROOT="/public"`
   - `MAGENTO_TABLE_PREFX` should include an underscore if necessary; `MAGENTO_TABLE_PREFIX="retail_"`
 - Start vagrant
