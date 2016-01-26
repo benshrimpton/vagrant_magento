@@ -13,8 +13,8 @@ brew cask install 'vagrant'
 ```
 
 ## Setup
-
-- Copy `Vagrantfile` and `bootstrap.sh` to your project directory.
+- Clone the magento repo you require.
+- Copy `Vagrantfile` and `bootstrap.sh` to your project directory root.
 
 ```sh
 # /project/root
